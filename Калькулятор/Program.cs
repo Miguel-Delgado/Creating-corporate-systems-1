@@ -167,7 +167,7 @@ namespace Калькулятор
                 Console.Write(message);
                 if (double.TryParse(Console.ReadLine(), out num))
                 {
-                    if (num >= -1000 && num <= 1000) // ограничение диапазона
+                    if (num >= -1000 && num <= 1000)
                         return num;
                     else
                         Console.WriteLine("Ошибка: число должно быть в диапазоне [-1000; 1000].");
